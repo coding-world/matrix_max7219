@@ -29,7 +29,7 @@ for i in taster:
   callback=steuerung)
 def startSpiel():
   global snake, richtung, apfel
-  snake = [[randint(2,width-4),randint(3,height-3)]]
+  snake = [[randint(3,width-4),randint(3,height-4)]]
   richtung = [0,0]
   while richtung == [0,0]:
     matrix.showMessage("READY")
